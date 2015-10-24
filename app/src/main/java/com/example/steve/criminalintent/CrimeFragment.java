@@ -338,7 +338,6 @@ public class CrimeFragment extends Fragment {
             crimeImageView.setClickable(false);
         } else {
             crimeImageView.setClickable(true);
-            // TODO: 10/17/2015 hardcode of view size here, change it later
             Bitmap bitmap = PictureUtils.getScaleBitmap(photoFile.getPath(), 100, 100);
             crimeImageView.setImageBitmap(bitmap);
         }
